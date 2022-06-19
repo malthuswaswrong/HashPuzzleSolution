@@ -39,6 +39,7 @@ public class HashPuzzleTests
     [InlineData(6)]
     [InlineData(7)]
     [InlineData(8)]
+    [InlineData(9)]
     public void MatchTest(int targetLength)
     {
         Stopwatch sw = new Stopwatch();
